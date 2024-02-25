@@ -1,0 +1,38 @@
+ ** Kutibhona loyihasini qiling **
+
+Talab1.
+    1. addNewBook - meotdi kitob qo'shish uchun ishlatiladi.
+        title ni unique deb oling.
+    2.  getBookByTitle  - metodi berilgan title bo'yicha
+        kitobni ni return qiladi.
+    3. getAuthorBooks - metodi author bo'yicha barcha kitoblarni return qiladi.
+    4. addAvailableBook - metodi bor kitoblar sonini son qo'shish agar kitob
+            bo'lmasa -1 return qiling. Agar  bo'lsa  uni sonini
+            ko'paytirib xosil bo'lgan sonni return qiling
+    5. getAvailableBook - berilgan kitobdan nechta borligini return qiladi.
+    6. getAvailableBookByAuthor -  berilgan aftor ni  kitoblar sonini return qiling.
+
+Talab 2.
+    1. addStudent - metod student qo'shish uchun ishlatiladi.
+    2. takeBook -  bu method studentga  kitob berish uchun ishlatiladi.
+             Agar berilgan student yokiy kitob bo'lmasa false return qiling.
+             Agar student da uje olingan kitoblar soni 5 da bo'lsa false
+                ruturn qiling.
+             Bitta student bir vaqtni o'zida 5ta kitob olga bo'lishi mumkin.
+            Agar ok bo'lsa  shu kitobni shu student oldi deb
+                yozib qo'yish kerak (qayerdadir)
+    3. returnTakenBook - Bu metod berilgan kitobni qaytarish uchun ishlatiladi.
+              Agar berilgan student yokiy kitob bo'lmasa -1 return qiling
+              Agar hammasi ok bo'lsa student kitobni topshirsin.
+              va studentni olib xali qaytarmagan kitoblar sonini qaytaring.
+Talab 3.
+    1. getStudentTookBookCount - bu metod studentni qolidagi kitoblar
+        sonini return qiladi (xali qaytarmagan kitoblar sonini)
+        Agar student bo'lmasa -1 return qiling
+    2. booksOnHand - bu metod olib xali qaytarilmagan
+        kitoblar sonini return qiladi
+    3. studentCountWhichTookABook - bu metod barcha kitob olgan studentlar
+                sonini return qiladi. Bitta student birmarta xisoblansin.
+    4. bookTookCount - bu metod berilgan kitob nechi marta olinganligini qaytradi.
+    5. bookOnHandCountByLevel - bu metod  berilgan kurs
+            o'qidigan studentlar ning qolida nechta kitob borligini return qiladi..
